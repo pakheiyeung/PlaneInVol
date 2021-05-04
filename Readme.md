@@ -47,4 +47,4 @@ Learning to Map 2D Ultrasound Images into 3D Space  with Minimal Human Annotatio
 	python inference_github.py
 	```
 ### Real-time 
-To do, but it would be a easy modification based on the `inference_github.py`.
+To do, but it would be an easy modification based on the `inference_github.py`.
