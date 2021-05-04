@@ -26,7 +26,7 @@ Learning to Map 2D Ultrasound Images into 3D Space  with Minimal Human Annotatio
 
 
 ## Dependencies
-- Python 3.6), other versions should also work
+- Python (3.6), other versions should also work
 - PyTorch (1.6), other versions should also work 
 - scipy
 - cv2
