@@ -165,9 +165,9 @@ class Proposed_vgg(nn.Module):
         self.pt3 = nn.Linear(fc_size, int(num_classes[2]))
         
     def forward(self, x):
+        x = torch.squeeze(x, dim=0)
         B,C,H,W = x.size()
         
-        x = torch.squeeze(x, dim=0)
         x = self.features(x)
         x = self.avgpool(x)
         x = x.view(x.size(0), -1)
