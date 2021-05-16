@@ -1,7 +1,3 @@
-'''
-Part of the code is adapted from Christoph Gohlke's code (https://www.lfd.uci.edu/~gohlke/code/transformations.py.html).
-'''
-
 from torch.utils import data
 import scipy.io as sio
 import numpy as np
